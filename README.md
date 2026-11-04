@@ -50,7 +50,9 @@ Use the table as an experiment to interpret, not as text to submit unchanged. Fo
 
 The app loads the saved pipelines from `model/`. Upload a labeled test CSV containing the 30 feature columns and `diagnosis`; select a classifier to display the six metrics, confusion matrix, and classification report. The app does not fit or retrain models.
 
-**Live Streamlit app:** [Open the deployed classifier evaluation app](https://mlassignment2-cnzwgcyav9gowfrqxfbln2.streamlit.app/)
+**Streamlit Community Cloud URL:** [Open the deployed classifier evaluation app](https://mlassignment2-cnzwgcyav9gowfrqxfbln2.streamlit.app/)
+
+**Deployment status:** The app shell loads, but Cloud currently fails to fetch the Selectbox JavaScript module. The app controls work locally with the pinned requirements; verify the Cloud URL again before submission.
 
 ## Run Locally
 
