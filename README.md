@@ -52,7 +52,7 @@ The app loads the saved pipelines from `model/`. Upload a labeled test CSV conta
 
 **Streamlit Community Cloud URL:** [Open the deployed classifier evaluation app](https://mlassignment2-cnzwgcyav9gowfrqxfbln2.streamlit.app/)
 
-**Deployment status:** The app shell loads, but Cloud currently fails to fetch the Selectbox JavaScript module. The app controls work locally with the pinned requirements; verify the Cloud URL again before submission.
+**Deployment status:** Verified on Streamlit Community Cloud. The model selector and CSV upload work; uploading the 114-row `test_data.csv` displayed all six metrics, a confusion matrix, and the classification report. Logistic Regression and Support Vector Machine were both checked.
 
 ## Run Locally
 
