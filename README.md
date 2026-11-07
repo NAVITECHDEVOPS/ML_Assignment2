@@ -1,8 +1,8 @@
 # ML_Assignment2
 
-## Classifier Evaluation Lab
+## Model Review Studio
 
-This project compares five classification methods on the Wisconsin Breast Cancer Diagnostic dataset, then evaluates a selected saved model in a Streamlit app. It is a learning project: rerun the experiment, inspect the code, and write your own interpretation before submitting it.
+This project compares five classification methods on the Wisconsin Breast Cancer Diagnostic dataset, then reviews their results in a Streamlit app. The app benchmarks all five saved models against uploaded labeled test data and provides a focused error analysis for a selected model. It is an educational prototype, not a clinical or production decision tool.
 
 ## Problem Statement
 
@@ -48,7 +48,7 @@ Use the table as an experiment to interpret, not as text to submit unchanged. Fo
 
 ## Streamlit App
 
-The app loads the saved pipelines from `model/`. Upload a labeled test CSV containing the 30 feature columns and `diagnosis`; select a classifier to display the six metrics, confusion matrix, and classification report. The app does not fit or retrain models.
+The **Model Review Studio** loads the saved pipelines from `model/`. Upload a labeled test CSV containing the 30 feature columns and `diagnosis`; the app benchmarks all five classifiers, then lets you select one for its six metrics, confusion matrix, and classification report. The app does not fit or retrain models on the uploaded data.
 
 **Streamlit Community Cloud URL:** [Open the deployed classifier evaluation app](https://mlassignment2-cnzwgcyav9gowfrqxfbln2.streamlit.app/)
 
